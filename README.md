@@ -4,8 +4,10 @@ This repo will be implementing certain chapters of the book [causal AI](https://
 
 ## Ch. 5 - Connecting Causality and Deep Learning
 
-The google colab notebook [Ch5CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/Ch5CausalDeepLearning.ipynb) implements the design, intuition and training of a causal VAE when it comes to generating and dealing with high-dimensional data such as images. The causal model of this data generation process takes the form of labels and latent factors being the causes of the generated images.
+The colab notebook [Ch5CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/Ch5CausalDeepLearning.ipynb) implements the design, intuition and training of a causal VAE when it comes to generating and dealing with high-dimensional data such as images. The causal model of this data generation process takes the form of labels and latent factors being the causes of the generated images.
 
+## Ch. 9 - General Counterfactual Inference Algorithm
 
+The colab notebook [Ch9CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/Ch9_General_CounterFactual_Inference.ipynb) implements chapter 9 of the book which deals with the general algorithm of probabilistic counterfactual inference. The general algorithm consists of the steps of Abduction, Action and Prediction. This notebook implements two of the practical examples of the book. The first example deals with predicting a person's height and uses the steps of the algorithm to answer a conditional hypothetical and a parallel-world counterfactual. The second example deals with implementing the algorithm to do semantic editing of a 2d sprite image.    
 
 
