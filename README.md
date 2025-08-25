@@ -16,6 +16,6 @@ Work in progress
 
 ## Ch. 13 - Implementing a Causal LLM (CLLMs) 
 
-The colab notebook [Ch13CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/BuildingACausalLLM.ipynb) implements chapter 13 of the book which deals with a practical example of screenplay/script writing through the use of finetuned LLMs on observational data to create in the end, a causal LLM!! First the DAG is modeled and each node/variable of the DAG is modeled as fintuned LLMs of either gpt2 or BART on a observational dataset of king-Prince-Kingom story narrartives. After doing so, the LLMs joint probability distributions are transformed into pyro distributions so that level 2 interventional data can be generated to do level do caual queries i.e., interventions   
+The colab notebook [Ch13CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/BuildingACausalLLM.ipynb) implements chapter 13 of the book which deals with a practical example of screenplay/script writing through the use of finetuned LLMs on observational data to create in the end, a causal LLM!! First the DAG is modeled and each node/variable of the DAG is modeled as fintuned LLMs of either gpt2 or BART on a observational dataset of king-Prince-Kingdom story narrartives. After doing so, the LLMs joint probability distributions are transformed into pyro distributions so that level 2 interventional data can be generated to do level 2 caual queries such as causal interventions   
 
 
