@@ -8,6 +8,14 @@ The colab notebook [Ch5CausalDeepLearning](https://github.com/AdamClarkStandke/C
 
 ## Ch. 9 - General Counterfactual Inference Algorithm
 
-The colab notebook [Ch9CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/Ch9_General_CounterFactual_Inference.ipynb) implements chapter 9 of the book which deals with the general algorithm of probabilistic counterfactual inference. The general algorithm consists of the steps of Abduction, Action and Prediction. This notebook implements two of the practical examples of the book. The first example deals with predicting a person's height and uses the steps of the algorithm to answer a conditional hypothetical and a parallel-world counterfactual. The second example deals with implementing the algorithm to do semantic editing of a 2d sprite image.    
+The colab notebook [Ch9CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/Ch9_General_CounterFactual_Inference.ipynb) implements chapter 9 of the book which deals with the general algorithm of probabilistic counterfactual inference. The general algorithm consists of the steps of Abduction, Action and Prediction. This notebook implements two of the practical examples of the book. The first example deals with predicting a person's height and uses the steps of the algorithm to answer a conditional hypothetical and a parallel-world counterfactual.
+
+## Ch. 11 - Causal Inference with Causal Generative Models (CGMs)
+
+Work in progress
+
+## Ch. 13 - Implementing a Causal LLM (CLLMs) 
+
+The colab notebook [Ch13CausalDeepLearning](https://github.com/AdamClarkStandke/CausalAI/blob/main/BuildingACausalLLM.ipynb) implements chapter 13 of the book which deals with a practical example of screenplay/script writing through the use of finetuned LLMs on observational data to create in the end, a causal LLM!! First the DAG is modeled and each node/variable of the DAG is modeled as fintuned LLMs of either gpt2 or BART on a observational dataset of king-Prince-Kingom story narrartives. After doing so, the LLMs joint probability distributions are transformed into pyro distributions so that level 2 interventional data can be generated to do level do caual queries i.e., interventions   
 
 
